@@ -1,0 +1,54 @@
+CRITICAL - 2022-04-24 10:00:02 --> Invalid file: carrousel.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('carrousel.php')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('carrousel', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(11): view('carrousel')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-24 10:00:15 --> Invalid file: carrousel.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('carrousel.php')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('carrousel', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(11): view('carrousel')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-24 10:00:28 --> Invalid file: carrousel.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('carrousel.php')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('carrousel', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(11): view('carrousel')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-24 10:00:28 --> Invalid file: carrousel.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('carrousel.php')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('carrousel', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(11): view('carrousel')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-24 10:00:41 --> Invalid file: carrousel.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('carrousel.php')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('carrousel', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(11): view('carrousel')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-24 10:01:32 --> Invalid file: carrousel.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('carrousel.php')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('carrousel', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(11): view('carrousel')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

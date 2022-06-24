@@ -1,0 +1,268 @@
+<div id="conteiner-productos">
+
+            /* INICIO NOMBRE PRODUCTOS */
+        
+            <!-- /*FIN NOMBRE PRODUCTO*/ -->
+
+            <!-- /* PRODUCTOS */ -->
+        <div id="productos-pag">    
+
+            <div id="container-descripcion">
+                <p> <b> - MILANESA DE SOJA - </b></p>
+               
+            </div>
+
+        </div>  
+            <!-- /* FIN PRODUCTO */ -->
+
+            <!-- /* PRODUCTOS */ -->
+        <div id="productos-pag">    
+
+            <div id="container-descripcion">
+                <p> <b> - MILANESA DE SOJA - </b></p>
+                
+            </div>
+
+        </div>  
+        <!-- /* FIN PRODUCTO */ -->
+
+        <!-- /* PRODUCTOS */ -->
+        <div id="productos-pag">    
+
+            <div id="container-descripcion">
+                <p> <b> - MILANESA DE SOJA - </b></p>
+            </div>
+
+        </div>  
+        <!-- /* FIN PRODUCTO */ -->
+
+        <!-- /* PRODUCTOS */ -->
+        <div id="productos-pag">    
+
+            <div id="container-descripcion">
+                <p> <b> - MILANESA DE SOJA - </b></p>
+                <ul>
+                    <li>4 huevos.</li>
+                    <li>2 dientes de ajo.</li>
+                    <li>Perejil picado.</li>
+                    <li>Sal y pimienta, a gusto.</li>
+                    <li>Pan rallado.</li>
+                    <li>1 kilo de nalga o peceto para milanesa.</li>
+                </ul>
+            </div>
+
+        </div> 
+         <!-- /* FIN PRODUCTO */ -->      
+
+    </div>
+
+
+
+
+
+    --------------------------------------------------------------
+    <div class="container mt-3">
+            <h2>Elegi la Mejor Opcion</h2>
+            <p> La Pregunta de Todos los Dias, ¿Que Cocino?</p>
+            <div id="accordion">
+                
+                    <div class="card1">
+                    <div class="card-header" >
+                        
+                        <a class="btn" id="boton-combo" data-bs-toggle="collapse" href="#collapseOne">
+                            
+                        # COMBO 1
+
+                        </a>
+
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                        <div class="card-body" id="productos-pag">
+                            
+
+                            <div id="container-descripcion">
+                                <p> <b> - PARA EMPEZAR TRANQUI LA DIETA- </b></p>
+                                <ul>
+                                    <li>2 Tartas Integrales</li>
+                                    <li>2 Pizzas Integrales</li>
+                                    <li>10 Bombas de verduras (rellenas de queso)</li>
+                                    <li>2 Milanesas de calabaza y quinoa (rellenas de queso)</li>
+                                </ul>
+                            </div>
+
+                            <div id="container-descripcion">
+                                <p> <b> - PARA SALVAR LA CENA - </b></p>
+                                <ul>
+                                    <li>2 Tartas Integrales</li>
+                                    <li>2 Pizzas Integrales</li>
+                                    <li>1 Pizza sin gluten</li>
+                                    <li>4 Medallones de verduras</li>
+                                    <li>10 Bombas de verduras (rellenas de queso)</li>
+                                    <li>2 Milanesas de Calabaza y Quinoa (rellenas de queso)</li>
+                                </ul>
+                            </div>
+
+                            <div id="container-descripcion">
+                                    <p> <b> - DALE A TU CUERPO ALEGRIA BERENJENA, HEEE BERENJENA- </b></p>
+                                    <ul>
+                                        <li>4 Tartas Integrales</li>
+                                        <li>1 Pizza Integral</li>
+                                        <li>1 Pizza sin Gluten</li>
+                                        <li>4 Medallones de Verduras</li>
+                                        <li>10 Bombas de Verduras (rellenas de queso)</li>
+                                        <li>2 Milanesas de Soja (rellenas de queso)</li>
+                                        <li>2 Milanesas de Calabaza y Quinoa (rellenas de queso)</li>
+                                    </ul>
+                                </div>
+
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="card1">
+                    <div class="card-header">
+                        <a class="collapsed btn" id="boton-combo" data-bs-toggle="collapse" href="#collapseTwo">
+                        # COMBO 2
+                    </a>
+                    </div>
+                    
+                    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body" id="productos-pag">
+                            
+
+                            <div id="container-descripcion">
+                                <p> <b> - PARA SALVAR LA CENA - </b></p>
+                                <ul>
+                                    <li>2 Tartas Integrales</li>
+                                    <li>2 Pizzas Integrales</li>
+                                    <li>1 Pizza sin gluten</li>
+                                    <li>4 Medallones de verduras</li>
+                                    <li>10 Bombas de verduras (rellenas de queso)</li>
+                                    <li>2 Milanesas de Calabaza y Quinoa (rellenas de queso)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="card1">
+                        <div class="card-header">
+                            <a class="collapsed btn" id="boton-combo" data-bs-toggle="collapse" href="#collapseThree">
+                            # COMBO 3
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body" id="productos-pag">
+                               
+
+                                <div id="container-descripcion">
+                                    <p> <b> - DALE A TU CUERPO ALEGRIA BERENJENA, HEEE BERENJENA- </b></p>
+                                    <ul>
+                                        <li>4 Tartas Integrales</li>
+                                        <li>1 Pizza Integral</li>
+                                        <li>1 Pizza sin Gluten</li>
+                                        <li>4 Medallones de Verduras</li>
+                                        <li>10 Bombas de Verduras (rellenas de queso)</li>
+                                        <li>2 Milanesas de Soja (rellenas de queso)</li>
+                                        <li>2 Milanesas de Calabaza y Quinoa (rellenas de queso)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="card1">
+                        <div class="card-header">
+                            <a class="collapsed btn" id="boton-combo" data-bs-toggle="collapse" href="#collapseFour">
+                            # COMBO 4
+                            </a>
+                        </div>
+                        <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body" id="productos-pag">
+                                
+
+                                <div id="container-descripcion">
+                                    <p> <b> -  OMG - </b></p>
+                                    <ul>
+                                        <li>3 Tartas Integrales</li>
+                                        <li>2 Pizzas Integrales</li>
+                                        <li>2 Pizzas sin Gluten</li>
+                                        <li>5 Medallones de Verduras</li>
+                                        <li>30 Bombas de Verduras (rellenas de queso)</li>
+                                        <li>2 Milanesas de Soja (rellenas de queso)</li>
+                                        <li>2 Milanesas de Calabaza y Quinoa (rellenas de queso)</li>
+                                        <li>6 Falafel (rellenos de queso)</li>
+                                        <li>6 Canastita de Cebolla y Queso</li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </div>
+
+                    
+
+                    <div class="card1">
+                        <div class="card-header">
+                            <a class="collapsed btn" id="boton-combo" data-bs-toggle="collapse" href="#collapseFive">
+                            # COMBO TARTAS
+                            </a>
+                        </div>
+
+                        <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body" id="productos-pag">
+                                
+
+                                <div id="container-descripcion">
+                                    <p> <b> - LO MEJOR DE CADA UNA - </b></p>
+                                    <ul>
+                                        <li>2 Tartas de Acelga y Morrones</li>
+                                        <li>2 Tartas de Zapallito</li>
+                                        <li>2 Tartas de Choclo y Zanahoria</li>
+                                        <li>2 Tartas Caprese</li>
+                                        <li>2 Tartas de Calabaza y Cebolla Caramelizada</li>
+                                        <li>2 Tartas de Cebolla y Queso</li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="card1">
+                        <div class="card-header">
+                            <a class="collapsed btn" id="boton-combo" data-bs-toggle="collapse" href="#collapseSix">
+                            # COMBO PIZZAS
+                            </a>
+                        </div>
+                        
+                        <div id="collapseSix" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body" id="productos-pag">
+                                
+                                <div id="container-descripcion">
+                                    <p> <b> - PIZZAS PARA NO ENGORDAR - </b></p>
+                                    <ul>
+                                        <li>1 Pizza de Acelga sin TACC</li>
+                                        <li>1 Pizza de Zanahoria sin TACC</li>
+                                        <li>1 Pizza de Espinaca Integral</li>
+                                        <li>1 Pizza de Remolacha Integral</li>
+                                        <li>1 Pizza de Zanahoria Integral</li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div id="imagen-productos">
+                <img src="assets/img/productos/milanesas.jpg" alt="">
+                <div>
+                    <p class="titulo-productos-"><b> ---- TARTAS ---- </b></p>
+                    <p class="descripcion-producto">Las mejores tartas, super saludables  y muy ricas! No te quedes sin la tuya! </p>
+                </div>
+        </div>
+
+        <div id="lista-productos">
+                
+        </div>

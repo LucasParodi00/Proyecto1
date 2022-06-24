@@ -1,0 +1,772 @@
+CRITICAL - 2022-04-22 06:38:05 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 06:38:08 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 08:52:30 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 08:52:33 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 08:52:35 --> syntax error, unexpected token "/"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 08:52:40 --> syntax error, unexpected token "/"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 08:52:43 --> syntax error, unexpected token "/"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 08:52:44 --> syntax error, unexpected token "<", expecting end of file
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 08:52:49 --> syntax error, unexpected token "?", expecting end of file
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 08:52:53 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 08:53:01 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 08:53:42 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 08:53:52 --> Undefined variable $vegetarian
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 08:53:54 --> Undefined variable $vegetarian
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 08:54:06 --> Undefined variable $index
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 08:55:28 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 08:55:29 --> Undefined variable $home
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 08:55:31 --> Undefined variable $home
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 08:56:11 --> Undefined variable $inicio
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 08:56:38 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 08:56:41 --> Undefined variable $Home
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 08:56:44 --> Undefined variable $Home
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 08:56:49 --> Undefined constant "Home"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#3 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-22 08:56:54 --> Undefined variable $Home
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 08:57:10 --> Undefined variable $_REQUESTHome
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 08:57:15 --> Array to string conversion
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 08:57:21 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 08:57:44 --> Undefined variable $Parodi2
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 08:57:47 --> Undefined variable $Parodi2
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:10:02 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 09:10:05 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 09:10:08 --> syntax error, unexpected token ")"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 09:10:13 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 09:10:16 --> syntax error, unexpected token "/"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 09:10:17 --> syntax error, unexpected double-quoted string ")</title>"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 09:10:20 --> syntax error, unexpected token "/"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 09:10:22 --> syntax error, unexpected token "<", expecting end of file
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 09:10:24 --> syntax error, unexpected token "?", expecting end of file
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 09:10:29 --> Undefined variable $Home
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:10:35 --> Undefined variable $Home
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:10:38 --> Undefined variable $Home
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:10:58 --> Undefined variable $index
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:14:04 --> Undefined variable $Con
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:14:06 --> Undefined variable $Config
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:14:10 --> Undefined variable $Config
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:14:32 --> Undefined variable $BaseController
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:14:50 --> Undefined variable $routes
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:16:03 --> syntax error, unexpected token ")"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 09:16:05 --> Undefined constant "Home"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#3 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-22 09:16:07 --> Undefined constant "Home"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#3 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-22 09:16:14 --> Undefined constant "Home"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#3 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-22 09:16:20 --> syntax error, unexpected token ")"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 09:16:25 --> Undefined constant "index"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#3 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-22 09:16:31 --> Undefined variable $index
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:17:24 --> Undefined constant "ph"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#3 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-22 09:17:25 --> Undefined constant "php"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#3 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-22 09:17:31 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 09:18:22 --> Undefined variable $Vegetarian
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:18:24 --> Undefined variable $Vegetarian
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:20:45 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 09:20:48 --> Undefined variable $Routes
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:21:03 --> Undefined variable $outes
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:21:04 --> Undefined variable $routes
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:21:10 --> Undefined variable $routes
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:23:24 --> Undefined variable $routes
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:23:28 --> Undefined variable $routes
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:23:32 --> Undefined variable $routes
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:23:33 --> Undefined variable $routes
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 09:23:35 --> Undefined variable $routes
+#0 C:\xampp\htdocs\Parodi2\app\Views\head.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Parodi2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#4 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(9): view('head')
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-22 13:09:06 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(48): view('comercializacio...')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 13:09:11 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(48): view('comercializacio...')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 13:09:11 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(48): view('comercializacio...')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 13:09:40 --> Invalid file: comercializacion.php
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('comercializacio...')
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('comercializacio...', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(48): view('comercializacio...')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 15:07:16 --> Invalid file: contador.php
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contador.php')
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('contador', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(13): view('contador')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 15:07:37 --> Invalid file: contador.php
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contador.php')
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('contador', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(13): view('contador')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 15:07:55 --> Invalid file: contador.php
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contador.php')
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('contador', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(13): view('contador')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-22 15:08:37 --> Invalid file: contador.php
+#0 C:\xampp\htdocs\Parodi2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contador.php')
+#1 C:\xampp\htdocs\Parodi2\system\Common.php(1089): CodeIgniter\View\View->render('contador', Array, true)
+#2 C:\xampp\htdocs\Parodi2\app\Controllers\Home.php(13): view('contador')
+#3 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

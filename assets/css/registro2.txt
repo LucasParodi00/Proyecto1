@@ -1,0 +1,19 @@
+
+.containerRegistroAdmiBase{
+    background-color: #03a298;
+    padding: 30px;
+}
+.containerRegistroAdmi{
+    background-color: #a1e0a9;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form-label{
+    color: #0d9b20;
+    font-size: 25px;
+    font-family: console;
+    
+
+}

@@ -1,0 +1,555 @@
+<!-- CARRUSEL PA-->
+        <div id="conteItemsCarrusel">
+            <div class="carrusel" id="itemCarrusel-1">           
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                    <img src="../public/assets/img/carrusel/bomba-de-verdura.jpg" alt="">
+                </div>
+                <div class="fechasCarrusel">
+                   <a href="#itemCarrusel-3">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrusel-2">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="carrusel" id="itemCarrusel-2">           
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                    <!-- Imagen-->
+                    <img src="../public/assets/img/carrusel/img-carrusel1.jpg" alt="">
+                </div>
+                <div class="fechasCarrusel">
+                    <a href="#itemCarrusel-1">
+                        <i class="fa-solid fa-chevron-left"></i>
+                     </a>
+                     <a href="#itemCarrusel-3">
+                        <i class="fa-solid fa-chevron-right"></i>
+                     </a>
+                </div>
+            </div>
+
+            <div class="carrusel" id="itemCarrusel-3">           
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                    C
+                </div>
+                <div class="fechasCarrusel">
+                    <a href="#itemCarrusel-2">
+                        <i class="fa-solid fa-chevron-left"></i>
+                     </a>
+                     <a href="#itemCarrusel-1">
+                        <i class="fa-solid fa-chevron-right"></i>
+                     </a>
+                </div>
+            </div>
+        </div><!-- CARRUSEL PA-->
+        <div id="conteItemsCarrusel">
+            <div class="carrusel" id="itemCarrusel-1">           
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                    <img src="../public/assets/img/carrusel/bomba-de-verdura.jpg" alt="">
+                </div>
+                <div class="fechasCarrusel">
+                   <a href="#itemCarrusel-3">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrusel-2">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="carrusel" id="itemCarrusel-2">           
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                    <!-- Imagen-->
+                    <img src="../public/assets/img/carrusel/img-carrusel1.jpg" alt="">
+                </div>
+                <div class="fechasCarrusel">
+                    <a href="#itemCarrusel-1">
+                        <i class="fa-solid fa-chevron-left"></i>
+                     </a>
+                     <a href="#itemCarrusel-3">
+                        <i class="fa-solid fa-chevron-right"></i>
+                     </a>
+                </div>
+            </div>
+
+            <div class="carrusel" id="itemCarrusel-3">           
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                    C
+                </div>
+                <div class="fechasCarrusel">
+                    <a href="#itemCarrusel-2">
+                        <i class="fa-solid fa-chevron-left"></i>
+                     </a>
+                     <a href="#itemCarrusel-1">
+                        <i class="fa-solid fa-chevron-right"></i>
+                     </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        /*Carrusel*/
+
+.carrusel{
+    
+    border: 1px solid black;
+    height: 800px;
+    position: relative;
+}
+
+.tarjetaCarrusel{
+    height: 100%;
+      
+    
+}
+
+.fechasCarrusel{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#conteItemsCarrusel{
+    margin-top: 30px;
+    /*border: 5px solid black;*/
+    height: 800px;
+    overflow: hidden;     
+}
+
+#conteItemsCarrusel i{
+    background-color: #d4d4d1;
+    color: #000;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    padding: 7px 0px 0px 8.5px;
+    border-radius: 50px;
+    opacity: 0.3;
+    
+}
+
+
+#tarjetaCarrusel-1{
+    background-color: rgb(186, 113, 255);
+
+}
+
+#tarjetaCarrusel-2{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#tarjetaCarrusel-3{
+    background-color: rgb(43, 226, 202);
+}
+
+img{
+    width: 100%;
+    
+}
+
+
+
+
+-------------------------------------------------->
+estilo nav
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.conteiner{
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.nav-main{
+    font-size: 17px;
+    /*Hace que se ponga uno alado de otro*/
+    display: flex; 
+    /**/
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0px 20px 20px;
+    background-color: #98ec9f;
+}
+
+.logo{
+    width: 50px;
+}
+/*nav-main*/
+.nav-main ul{
+    display: flex;
+    font-size: 19px;
+}
+
+.nav-main ul li{
+    padding: 10px;
+}
+
+.nav-main ul li:hover{
+    background-color: #aff5ba;
+}
+
+.nav-main ul li a {
+    padding: 2px;
+}
+.nav-main ul li a:hover{
+    border-bottom: 2px solid green;
+}
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.nav-main{
+    font-size: 17px;
+    display: flex;
+}
+
+
+-------------------------------------------------
+
+.contenedorAboutme{
+    height: 500px;
+    padding: 30px;  
+}
+
+.about-me_conteiner {
+    
+    border-style: solid;
+    border-color: rgb(248, 4, 4);
+    height: 100%; 
+    border-width: 10px
+    
+}
+
+
+.img-about{
+    width: 100%;
+    height: 100%;
+}
+<div class="about-me_conteiner">
+              
+              <!--<img class="img-about"  src="../public/assets/img/banner-about-me.jpg" alt="">-->
+            </div>
+
+
+
+            ------------------------------------------------------------------------------------------
+
+
+            *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: #c4efbd;
+    font-size: 17px;
+    /*font-family: 'cooper', sans-serif;*/
+}
+.conteiner-base{
+    width: 90%;
+    padding: 10px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    max-width: 1100px;
+
+}
+.conteiner{
+    width: 99.5%;
+    height: 99.5;
+    margin: auto;
+    /*margin-top: 30px;*/
+    background-color: #f7f7f7;
+}
+
+/*Carrusel*/
+.carousel-inner{
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:800px){
+    .carousel-item img{
+        width: 360px;
+        height: 200px;
+    }
+}
+
+.logo{
+    width: 130px;
+    height: 55px;
+}
+
+
+.navbar-nav {
+    margin-left: 30px;
+    
+}
+
+.nav-link{
+    color: white !important;
+    font-style: tahoma;
+}
+
+
+.nav-item{
+    margin-left: 25px;
+}
+
+.nav-item:hover{
+    background-color: rgb(68, 67, 67);
+    opacity: 0.5 white;
+    border-radius: 15px;
+    
+} 
+
+.btn{
+    background-color: #c4efbd;
+    color: black;
+    font-family: cooper;
+    border-color: black;
+}
+
+.btn:hover{
+    background-color: #198b07;
+}
+
+
+/*Presentacion*/
+
+.about-me_conteiner{
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    width: 900px;
+    height: 400px;
+    background-color: #dbdeca;
+    border-radius: 20px;
+}
+.contenedor-img:hover{
+    width: 480px;
+    z-index: 1;
+    padding-bottom: 87px;
+}
+
+.about-img{
+      width: 400px;
+}
+.about-img:hover{
+    width: 480px;    
+}
+
+.aboutme_descripcion{
+    height: 315px;
+    width: 450px;
+    background-color: #e0dbdb;
+    margin-right: 10px;
+    margin-left: 430px;
+    border-style:groove;
+    align-items: center;
+    position: absolute;  
+    
+}
+
+.aboutme_descripcion p{
+    color: black;
+    font-family: Roboto Condens;
+    font-size: 27px;
+    margin: 50px auto;
+    text-align: center;    
+}
+
+/*Productos */
+.contenedor-productos{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+}
+
+.productos{
+    display: flex;
+    width: 100%;
+}
+
+.ver-mas p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: cooper;
+    color: black;
+}
+
+.ver-mas{
+    text-decoration: none;
+}
+.ver-mas p:hover{
+    color: #363646;
+}
+
+.ver-mas:hover{
+    text-decoration: none;
+}
+
+
+
+
+.card{
+    margin: 15px auto;
+    width: 300px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 70px #616d5f;
+}
+.card img{
+    width: 250px;
+    height: 250px;
+    margin: 30px auto;
+    border: solid #91a18f;
+    border-radius: 20px;
+    
+}
+
+.tex-card p{
+    
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Grape Nuts', cursive;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*Pie de pagina*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+.red-social img{
+    width: 45px;
+    height: 45px;
+    background-color: #082036;
+    border-radius: 15px;
+    margin-left: 18.5px;
+    padding: 5px;
+}
+
+
+
+.red-social p{
+    width: 45px;
+    padding: 5px;
+}
+.box{
+    margin: auto;
+}
+
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+
+/*Carrusel*/
+.carousel-inner{
+  
+    margin: 0px auto 10px auto;
+}
+#demo{
+    
+    margin: 0px auto 10px auto; 
+}
+
+.carousel-item img{ 
+    object-fit:cover;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    height: 870px;
+    max-height: 870px;
+    display: flex;
+
+}

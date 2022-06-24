@@ -1,0 +1,99 @@
+ERROR - 2022-05-19 17:46:21 --> Table 'parodi.usuarios' doesn't exist
+CRITICAL - 2022-05-19 17:46:21 --> Table 'parodi.usuarios' doesn't exist
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(47): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->create()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-19 18:11:48 --> Undefined variable $data
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->create()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 17:13:50 --> Undefined variable $validation
+#0 C:\xampp\htdocs\Parodi\app\Views\registro.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('registro', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(28): view('registro')
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-19 17:25:43 --> Call to a member function listErrors() on string
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('registro', Array, true)
+#3 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(57): view('registro', Array)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->create()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 17:29:48 --> Call to a member function listErrors() on null
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('registro', Array, true)
+#3 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(28): view('registro', Array)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 17:30:47 --> Call to a member function listErrors() on null
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('registro', Array, true)
+#3 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(29): view('registro', Array)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 17:39:01 --> Call to a member function listErrors() on null
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('registro', Array, true)
+#3 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(29): view('registro', Array)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 17:39:46 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('registro', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(29): view('registro', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 18:11:34 --> syntax error, unexpected token "public", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Validati...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Validati...')
+#3 C:\xampp\htdocs\Parodi\system\Config\Factories.php(136): class_exists('Config\\Validati...')
+#4 C:\xampp\htdocs\Parodi\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Validation')
+#5 C:\xampp\htdocs\Parodi\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#6 C:\xampp\htdocs\Parodi\system\Config\Services.php(656): config('Validation')
+#7 C:\xampp\htdocs\Parodi\system\Config\BaseService.php(248): CodeIgniter\Config\Services::validation(NULL, false)
+#8 C:\xampp\htdocs\Parodi\system\BaseModel.php(298): CodeIgniter\Config\BaseService::__callStatic('validation', Array)
+#9 C:\xampp\htdocs\Parodi\system\Model.php(101): CodeIgniter\BaseModel->__construct(NULL)
+#10 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(29): CodeIgniter\Model->__construct()
+#11 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->create()
+#12 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#13 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}

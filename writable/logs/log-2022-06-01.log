@@ -1,0 +1,55 @@
+CRITICAL - 2022-06-01 00:32:32 --> Undefined variable $usuarios
+#0 C:\xampp\htdocs\Parodi\app\Views\back\panelProductosEliminados.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/panelProdu...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(26): view('back/panelProdu...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->panelEliminados()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 00:35:20 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\Parodi\app\Views\back\panelProductosEliminados.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/panelProdu...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(26): view('back/panelProdu...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->panelEliminados()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 00:35:34 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\Parodi\app\Views\back\panelProductosEliminados.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/panelProdu...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(26): view('back/panelProdu...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->panelEliminados()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 00:36:50 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\Parodi\app\Views\back\panelProductosEliminados.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/panelProdu...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(26): view('back/panelProdu...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->panelEliminados()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 01:01:47 --> Undefined array key "nombreProducto, seccion"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\panelProductos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/panelProdu...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(16): view('back/panelProdu...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->panelProductos()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

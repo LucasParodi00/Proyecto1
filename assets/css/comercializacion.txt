@@ -1,0 +1,102 @@
+
+.contenedor-comercio{
+    padding: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+  
+.cont-envios{
+    display: flex;
+    color: #ffffff;
+    border: solid 1px #ff0000;
+    padding: 30px;
+    box-shadow: 0 0 20px 2px #ff0000;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+
+}
+
+.titulo_tipo_comercio{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.titulo_tipo_comercio h2{
+    font-weight:bolder;
+}
+
+.titulo_tipo_comercio span{
+    width: 500px;
+    height: 5px;
+    margin: 0 auto;
+    display: block;
+    background-color: #ff0000;
+}
+
+.envios{
+    display: flex;
+    width: 850px;
+
+}
+
+.img-envios{
+    width: 190px;
+    height: 190px;
+    border-radius: 20px;
+    margin: 15px 30px 20px 15px;
+    box-shadow: 8px 8px 16px rgba(74, 78, 87, 0.8), -8px -8px 16px rgba(74, 78, 87, 0.8);
+}
+
+.img-envios img{
+    width: 190px;
+    height: 190px;
+    object-fit:cover;
+    border-radius: 20px;
+}
+
+.text-envio{
+    padding: 20px;
+    
+    
+}
+
+.text-envio h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-envio ul{
+    width: 100%;
+}
+
+
+@media  screen and (max-width: 800px) {
+    .contenedor-comercio{
+        padding: 20px 0;
+    }
+    
+    .titulo_tipo_comercio h2{
+        font-size: 23px;
+    }
+    .titulo_tipo_comercio span{
+        width: 100%;
+    }
+
+
+    .cont-envios{
+        width: 100%;
+        box-shadow: none;
+        padding: 30px 5px 30px 5px;
+    }
+    
+    .envios{
+        display: inline;
+    }
+
+    .img-envios {
+        margin: 0 auto;
+    }
+    
+    
+}

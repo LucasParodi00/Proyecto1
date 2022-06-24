@@ -1,0 +1,32 @@
+CRITICAL - 2022-06-11 11:32:37 --> No se puede encontrar la ruta  mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\Parodi\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(67): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->sumar_carrito()
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-11 11:32:41 --> No se puede encontrar la ruta  mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\Parodi\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(67): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->sumar_carrito()
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-11 11:36:48 --> No se puede encontrar la ruta  mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\Parodi\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(55): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->vaciarCarrito()
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-11 11:36:56 --> No se puede encontrar la ruta  mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\Parodi\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(55): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->vaciarCarrito()
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

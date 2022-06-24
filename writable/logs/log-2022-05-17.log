@@ -1,0 +1,16 @@
+CRITICAL - 2022-05-17 11:10:01 --> Invalid file: Usuario_controller/new.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Usuario_control...')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('Usuario_control...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(29): view('Usuario_control...', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-17 12:14:08 --> CodeIgniter\Router\RouteCollection::resource(): Argument #2 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\Parodi\app\Config\Routes.php on line 50
+#0 C:\xampp\htdocs\Parodi\app\Config\Routes.php(50): CodeIgniter\Router\RouteCollection->resource('registro', 'Usuario_control...')
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(713): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

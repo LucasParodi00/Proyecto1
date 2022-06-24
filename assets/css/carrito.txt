@@ -1,0 +1,33 @@
+.contenedorCarrito2{
+    margin: 10px auto;
+    max-width: 1905px;
+    background-color: #313131;
+}
+.containerCarrito {
+    background-color: #313131;
+    max-width: 95%;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    
+    
+}
+
+.cabezera{
+    background-color: #868686;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table tr td a{
+    margin: 0 5px;
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+

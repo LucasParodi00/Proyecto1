@@ -1,0 +1,449 @@
+ERROR - 2022-06-16 13:00:42 --> Column 'usuario' cannot be null
+CRITICAL - 2022-06-16 13:00:42 --> Column 'usuario' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(110): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->comprar()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-16 13:11:50 --> Table 'parodi.compra' doesn't exist
+CRITICAL - 2022-06-16 13:11:50 --> Table 'parodi.compra' doesn't exist
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(119): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-16 13:12:25 --> Table 'parodi.compra' doesn't exist
+CRITICAL - 2022-06-16 13:12:25 --> Table 'parodi.compra' doesn't exist
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(120): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-16 13:23:56 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-06-16 13:23:56 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(119): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-16 13:24:16 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:24:32 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:24:40 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:30:54 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:31:21 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-16 13:46:53 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-06-16 13:46:53 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(134): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-16 13:47:25 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:28 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:29 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:29 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:30 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:30 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:30 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:30 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:30 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:31 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:31 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:31 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:31 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:31 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:32 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:32 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:32 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:32 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:33 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:33 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:33 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:43 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:45 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:46 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:46 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:46 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:47 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:47 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:48 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:48 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:48 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:48 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:49 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:49 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:49 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:47:49 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:48:55 --> Cannot use object of type App\Models\Ventas_Model as array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 13:52:31 --> syntax error, unexpected single-quoted string "usuario", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-16 13:54:59 --> syntax error, unexpected token ":"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-16 13:58:26 --> Undefined array key "usuario"
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 13:59:29 --> Undefined array key "usuario"
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:00:39 --> Undefined array key "usuario"
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:01:12 --> Undefined array key "usuario"
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 136)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:02:01 --> Undefined array key "usuario"
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 136)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:03:39 --> Undefined array key "email_usuario"
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 134)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:04:49 --> Undefined array key "email_usuario"
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:06:15 --> Undefined array key "email_usuario"
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:06:38 --> Undefined array key "email_usuario"
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 139)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:06:39 --> Undefined array key "email_usuario"
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 139)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:09:34 --> Undefined array key "id_venta"
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 124)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 14:24:18 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/mi...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(142): view('back/carrito/mi...', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-16 14:42:08 --> Undefined array key "fecha"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\misVentas.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/mi...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(142): view('back/carrito/mi...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 14:42:30 --> Undefined array key "fecha"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\misVentas.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/mi...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(142): view('back/carrito/mi...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

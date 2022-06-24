@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+
+
+.contenedor{
+	width: 500px;
+	margin: auto;
+    text-align: center;
+	background: rgb(0, 0, 0);
+	position: relative;
+	transition: initial 5000ms;
+    box-shadow: 0 0 600px #3cff00;
+    border-radius: 30px;
+}
+
+.contenedor h3{
+    margin: 30px 0 30px 0;
+	padding: 10px;
+	background: #222222;
+	color: rgb(255, 0, 0);
+    box-shadow: 0 0 30px #ffffff;
+    font-family: 'Francois One';
+    justify-content: space-around;
+
+}
+.contenedor label{
+    
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+}
+.contenido{
+    margin-bottom: 30px;
+}
+
+.contenido p{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+}
+.contenido span{
+    margin: 2px auto 15px auto;
+    width: 50%;
+    height: 3px;
+    background-color: rgb(112, 4, 4);
+    display: block;
+    
+    
+}
+#btn-modal{
+	display: none;
+    
+}
+.lbl-modal{
+	background: #222222;
+    color: #ff0000;
+    text-align: center;
+    font-size: 30px;
+	border-radius: 4px;
+	cursor: pointer;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    padding: auto;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.contenedor{
+		width: 95%;
+	}
+}
+
+
+
+.titulo-productos{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 25px;
+    align-items: center;
+}
+#accordion{
+    margin-bottom: 30px;
+}
+
+
+#conteiner-productos{
+    background-color: #f7f7f7;
+    
+}
+
+/*Divisores entre productos*/
+#imagen-productos{
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #fff;
+    border: solid 1px black;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    
+}
+
+#imagen-productos div{
+    width: 70%;
+}
+
+
+#imagen-productos img{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 0px 70px #616d5f; 
+    border-radius: 15px;
+    border: solid black; 
+}
+
+
+/*Productos*/
+.titulo-productos- {
+    font-family: 'Francois One';
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.descripcion-producto{
+    margin-left: 5%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#productos-pag{
+    margin: 30px auto 20px auto;
+    background-color: #ffffff;
+    display: flex;
+    width: 90%;
+    border-radius: 15px;
+    border: solid 1px;
+    flex-wrap: wrap;
+}
+
+#container-img{
+    height: 200px;
+    width: 200px;
+    margin: 15px 10px 0px 15px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#container-img img{
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0px 0px 20px #676e66;
+    border-radius: 15px;
+    
+}
+
+#container-descripcion {
+    padding: 5px;
+    background-color: #c4efbd;
+    margin: 10px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#container-descripcion p{
+    font-size: 20px;
+    font-family: 'Francois One';
+    margin-left: 10%;
+}
+
+#container-descripcion ul li{
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 15px;    
+}
+
+#container-descripcion hr{
+    margin: 0;
+}
+#container-descripcion i{
+    margin: 30%;
+}
+#container-descripcion img{
+    width: 20px;
+    display: inline-flex;
+}
+
+
+#venta {
+    padding: 5px;
+    background-color: #c4efbd;
+    margin: 10px;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+#venta b{
+    font-size: 16px;
+    font-family: 'Francois One';
+    margin-left: 10%;
+    display: block;
+}
+
+#venta i {
+    margin-left: 15%;
+    font-size: 13px;
+    
+}
+
+.precioProductoI{
+    margin-left: 80%;
+    display: flex !important;
+    align-items: center;
+}
+
+.precioProductoI i{
+    margin:0 !important;
+    font-size: 20px !important;
+    
+}
+#btnCompra{
+    margin-left: 10px;
+}
+#venta img{
+    height: 20px;
+    width: 20px;
+    margin: auto;
+}
+
+
+.card-header{
+    background-color: #2c2c2c;
+    border-bottom: solid 1px #ff0000;
+}
+
+#boton-combo{
+    background-color: #ffffff;
+    width: 200px;
+}
+
+/*Lista productos*/   
+.caja-otros-productos{
+    display: flex;
+}
+
+
+.box-otros-productos{
+    width: 28%;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #efefef;
+    box-shadow: 0px 0px 40px #616d5f;    
+}
+
+.img-box-otrosProductos{
+    height: 130px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    border:  solid 1px;
+    border-radius: 20px;
+}
+
+.box-otros-productos b{
+    display: flex;
+    font-family: 'Francois One';
+    margin: 0 auto;
+}
+
+.carrito-otros-productos{
+    height: 20px;
+    width: 20px;
+    float: right;
+
+}
+
+@media screen and (max-width: 600px){
+    
+    #productos-pag{
+        width: 95%;
+        padding: 0;
+        
+    }
+    #container-descripcion{
+        width: 98%;
+        margin: 20px auto 20px auto;
+    }
+    #container-descripcion i{
+        margin-left: 5%; 
+        font-size: 15px; 
+        display: contents;      
+    }
+    #container-descripcion img{
+        margin-left: 10%;
+       
+    }
+    
+    /*Segunda parte del acordeon*/
+
+    #venta div {
+        display: contents;
+    }
+    
+    #venta div img{
+        margin-left: 30%;
+    }
+
+    /*Otros productos (debajo del acordeon) */
+    .caja-otros-productos{
+        flex-wrap: wrap;
+    }
+
+    .box-otros-productos{
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .box-otros-productos b{
+        display: table;
+        font-family: 'Francois One';
+        margin: 0 auto;
+    }
+
+
+
+}
+
+

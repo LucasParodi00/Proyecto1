@@ -1,0 +1,226 @@
+hr{
+    margin: 0;
+}
+
+i{
+    color: #000;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+.division{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(117, 5, 5);
+    display: block;
+}
+.contacto-group{
+    margin: 20px auto;
+}
+
+.conteiner-contacto{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        
+}
+
+.contacto{
+    margin-bottom: 20px;
+}
+
+.ubicaciones{
+    margin: 30px;
+    width: 450px;
+    
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.contacto b{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Francois One';
+}
+
+.maps{
+    width: 100%;
+}
+
+.direccion{
+    display: flex;
+    margin-left: 50px;
+}
+
+.contacto-red-social{
+    margin-left: 50px;
+}
+.direccion img{
+    width: 20px;
+    margin: 0 10px;
+}
+
+.contacto-red-social img{
+    width: 20px;
+    margin: 0 10px;
+}
+
+
+/*Formulario de contacto*/
+
+.formulario-contacto h3{
+    color: #e90404;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h4{
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+}
+
+.ul {
+    list-style: none;
+    padding: 0;
+}
+
+.caja-formulario{
+    padding: 10px;
+    width: 90%;
+    margin: 20px auto;    
+}
+
+.logo {
+    text-align: center;
+    font-size: 48px;
+}
+
+.logo span {
+    color: #B70E21;
+}
+
+.formulario {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.formulario > * {
+    padding: 16px;
+}
+
+.formulario-contacto  {
+    background: #222222;
+}
+
+.formulario-contacto form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formulario-contacto  form label {
+    display: block;
+    color: #ffffff ;
+}
+
+.formulario-contacto  form p {
+    margin: 0;
+    padding: 16px;
+}
+
+.formulario-contacto  form .block {
+    grid-column: 1 / 3;
+}
+
+.formulario-contacto  form button,
+.formulario-contacto  form input,
+.formulario-contacto  form textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #d63031;
+}
+
+.formulario-contacto form button {
+    background: #B70E21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 16px;
+}
+
+.formulario-contacto form button:hover,
+.formulario-contacto form button:focus {
+    background: #d63031;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+
+.info-adicional {
+    background: #000;
+}
+
+.info-adicional ul, .info-adicional i {
+    text-align: center;
+    margin: 0 0 16px 0;
+    color: #ffffff;
+}
+
+.ul{
+    margin-top: 10px;
+}
+
+.horarios-atencion p{
+    margin: 0 ; 
+}
+
+.horarios-atencion a{
+    color: #ffffff;
+}
+
+.horarios-atencion{
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+@media(min-width: 700px) {
+      .formulario {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .formulario > * {
+        padding: 2em;
+    }
+    .info-adicional ul{
+        text-align: left;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .puntos-de-venta{
+        font-size: 40px;      
+    }
+    
+}
+
+
+.putos-venta{
+    background-color: #474646;
+    margin-top: 20px;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 0 0 35px #8b8989 ;
+    font-size: 50px;
+    color: #c90404;
+    text-align: center;
+}

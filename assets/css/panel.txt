@@ -1,0 +1,64 @@
+.panel{
+    margin-bottom: 20px;
+}
+
+.container_panel{
+    padding: 30px;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #222222;
+    
+    
+}
+.container_panel2{
+    margin: 30 auto;
+}
+
+.titulo_panel{
+    display: flex;
+}
+.titulo_panel p {
+    margin: 0 auto;
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+
+.table {
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.table thead tr{
+    text-align: center;
+}
+
+.table tbody tr{
+    text-align: center;
+}
+.table tbody tr:hover{
+    color: red;
+}
+.spanPanel{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(117, 5, 5);
+    display: block;
+    box-shadow: 0 0 20px #c91a1a;
+}
+
+.cargarUsuario {
+    margin-top: 15px;
+}
+
+
+/* .cargarUsuario a:nth-child(2){
+    font-family: console;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #474646;
+    border-radius: 10px;
+    display: inline;
+    padding: 5px;
+} */

@@ -1,0 +1,567 @@
+CRITICAL - 2022-05-16 01:36:59 --> Invalid file: back/registro.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/registro.p...')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/registro', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(66): view('back/registro')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-16 12:16:15 --> Undefined variable $validation
+#0 C:\xampp\htdocs\Parodi\app\Views\registro.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('registro', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(66): view('registro')
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-16 12:18:43 --> Undefined variable $validation
+#0 C:\xampp\htdocs\Parodi\app\Views\registro.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('registro', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(66): view('registro')
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-16 12:18:44 --> Undefined variable $validation
+#0 C:\xampp\htdocs\Parodi\app\Views\registro.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('registro', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(66): view('registro')
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-16 18:08:23 --> Invalid file: Usuario_controller/new.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Usuario_control...')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('Usuario_control...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(66): view('Usuario_control...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-16 18:08:50 --> Invalid file: Usuario_controller.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Usuario_control...')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('Usuario_control...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(66): view('Usuario_control...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-16 18:08:51 --> Invalid file: Usuario_controller.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Usuario_control...')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('Usuario_control...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(66): view('Usuario_control...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-16 18:08:53 --> Invalid file: Usuario_controller.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Usuario_control...')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('Usuario_control...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(66): view('Usuario_control...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-16 18:09:39 --> Invalid file: Usuario_controller.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Usuario_control...')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('Usuario_control...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(66): view('Usuario_control...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-16 18:09:58 --> Undefined variable $validation
+#0 C:\xampp\htdocs\Parodi\app\Views\registro.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('registro', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(66): view('registro')
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-16 19:10:14 --> Undefined variable $validation
+#0 C:\xampp\htdocs\Parodi\app\Views\registro.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('registro', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Home.php(66): view('registro')
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-16 19:16:02 --> Call to undefined function <!-- DEBUG-VIEW START 2 APPPATH\Views\registro.php -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body class="body">
+    
+
+    <div class="conteiner-base-inicio">
+        <div class="conteiner-inicio">      
+
+                    <!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+                    
+
+                <form class="formulario-inicio-sesion"  method="POST" action="http://localhost/Parodi/registro"> 
+                
+                    <h1>Registrate</h1>
+                    <div class="contenedor-sesion">
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-address-card icon"></i> 
+                        <input type="number"  name="cuit" value="">  
+                        </div>
+                        <!-- php-->
+                       
+
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-user icon"></i> 
+                        <input type="text" placeholder="Nombre de Usuario" name="usuario" value="">  
+                        </div>
+                        <!-- php-->
+                       
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-user icon"></i> 
+                        <input type="text" placeholder="Nombre y Apellido" name="nomyape" >  
+                        </div>
+                        <!-- php-->
+                        
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-envelope icon"></i> 
+                        <input type="text" placeholder="Correo Electronico" name="email" >  
+                        </div>
+                        <!-- php-->
+                        
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-key icon"></i>
+                        <input type="password" placeholder="Contraseña" name="password" >  
+                        </div>
+                        <!-- php-->
+                       
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-phone icon"></i>
+                        <input type="number" placeholder="Telefono" name="tel" >  
+                        </div>
+                        <!-- php-->
+                       
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-map-location-dot icon"></i> 
+                        <input type="text" placeholder="Localidad" name="localidad">  
+                        </div>
+                      
+
+                        <input type="submit" value="Registrate" class="button">
+                        <p>Al registrarte, aceptas nuestras Condiciones de uso y Politica de privacidad</p>
+                        <p>¿Ya tienes una cuenta?<a class="link" href="sesion">Iniciar Sesion</a></p>
+                    </div>
+                </form>
+
+        </div>
+    </div>
+
+</body>
+<!-- DEBUG-VIEW ENDED 2 APPPATH\Views\registro.php -->
+()
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-16 19:22:21 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-05-16 19:22:21 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->create()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-16 19:38:06 --> Invalid file: registro, head.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('registro, head....')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('registro, head', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(14): view('registro, head', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-16 19:43:31 --> compact(): Undefined variable $head
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(14): compact('head')
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 19:44:26 --> compact(): Undefined variable $head
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(14): compact('head', 'registro')
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 19:47:27 --> Call to undefined function <!-- DEBUG-VIEW START 3 APPPATH\Views\registro.php -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body class="body">
+    
+
+    <div class="conteiner-base-inicio">
+        <div class="conteiner-inicio">      
+
+                    <!-- DEBUG-VIEW START 2 SYSTEMPATH\Validation\Views\list.php -->
+
+<!-- DEBUG-VIEW ENDED 2 SYSTEMPATH\Validation\Views\list.php -->
+                    
+
+                <form class="formulario-inicio-sesion"  method="POST" action="http://localhost/Parodi/Usuario_controller"> 
+                
+                    <h1>Registrate</h1>
+                    <div class="contenedor-sesion">
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-address-card icon"></i> 
+                        <input type="number"  name="cuit" value="">  
+                        </div>
+                        <!-- php-->
+                       
+
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-user icon"></i> 
+                        <input type="text" placeholder="Nombre de Usuario" name="usuario" value="">  
+                        </div>
+                        <!-- php-->
+                       
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-user icon"></i> 
+                        <input type="text" placeholder="Nombre y Apellido" name="nomyape" >  
+                        </div>
+                        <!-- php-->
+                        
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-envelope icon"></i> 
+                        <input type="text" placeholder="Correo Electronico" name="email" >  
+                        </div>
+                        <!-- php-->
+                        
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-key icon"></i>
+                        <input type="password" placeholder="Contraseña" name="password" >  
+                        </div>
+                        <!-- php-->
+                       
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-phone icon"></i>
+                        <input type="number" placeholder="Telefono" name="tel" >  
+                        </div>
+                        <!-- php-->
+                       
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-map-location-dot icon"></i> 
+                        <input type="text" placeholder="Localidad" name="localidad">  
+                        </div>
+                      
+
+                        <input type="submit" value="Registrate" class="button">
+                        <p>Al registrarte, aceptas nuestras Condiciones de uso y Politica de privacidad</p>
+                        <p>¿Ya tienes una cuenta?<a class="link" href="sesion">Iniciar Sesion</a></p>
+                    </div>
+                </form>
+
+        </div>
+    </div>
+
+</body>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\Views\registro.php -->
+()
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 19:47:36 --> Call to undefined function <!-- DEBUG-VIEW START 3 APPPATH\Views\registro.php -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body class="body">
+    
+
+    <div class="conteiner-base-inicio">
+        <div class="conteiner-inicio">      
+
+                    <!-- DEBUG-VIEW START 2 SYSTEMPATH\Validation\Views\list.php -->
+
+<!-- DEBUG-VIEW ENDED 2 SYSTEMPATH\Validation\Views\list.php -->
+                    
+
+                <form class="formulario-inicio-sesion"  method="POST" action="http://localhost/Parodi/Usuario_controller"> 
+                
+                    <h1>Registrate</h1>
+                    <div class="contenedor-sesion">
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-address-card icon"></i> 
+                        <input type="number"  name="cuit" value="">  
+                        </div>
+                        <!-- php-->
+                       
+
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-user icon"></i> 
+                        <input type="text" placeholder="Nombre de Usuario" name="usuario" value="">  
+                        </div>
+                        <!-- php-->
+                       
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-user icon"></i> 
+                        <input type="text" placeholder="Nombre y Apellido" name="nomyape" >  
+                        </div>
+                        <!-- php-->
+                        
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-envelope icon"></i> 
+                        <input type="text" placeholder="Correo Electronico" name="email" >  
+                        </div>
+                        <!-- php-->
+                        
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-key icon"></i>
+                        <input type="password" placeholder="Contraseña" name="password" >  
+                        </div>
+                        <!-- php-->
+                       
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-phone icon"></i>
+                        <input type="number" placeholder="Telefono" name="tel" >  
+                        </div>
+                        <!-- php-->
+                       
+
+                        <div class="input-contenedor-sesion">
+                        <i class="fa-solid fa-map-location-dot icon"></i> 
+                        <input type="text" placeholder="Localidad" name="localidad">  
+                        </div>
+                      
+
+                        <input type="submit" value="Registrate" class="button">
+                        <p>Al registrarte, aceptas nuestras Condiciones de uso y Politica de privacidad</p>
+                        <p>¿Ya tienes una cuenta?<a class="link" href="sesion">Iniciar Sesion</a></p>
+                    </div>
+                </form>
+
+        </div>
+    </div>
+
+</body>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\Views\registro.php -->
+()
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 20:22:03 --> Undefined property: App\Controllers\Usuario_controller::$load
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 20:22:04 --> Undefined property: App\Controllers\Usuario_controller::$load
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 20:22:05 --> Undefined property: App\Controllers\Usuario_controller::$load
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->new()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 20:24:28 --> Undefined property: App\Controllers\Usuario_controller::$load
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Usuario_controller.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->index()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 20:28:21 --> Call to undefined function App\Controllers\wiew()
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->index()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 20:28:24 --> Call to undefined function App\Controllers\wiew()
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->index()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

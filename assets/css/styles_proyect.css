@@ -1,0 +1,83 @@
+.div_gral{
+    margin: 0 auto;
+    display: auto;
+}
+
+
+body{
+    background: #16A085;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 20px 80px;
+}
+
+.tilte{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 157, 0);
+    background-color: black;
+}
+.tilte li{
+    color: black;
+}
+
+.nav_inicio :hover{
+    color: white;
+}
+.nav_inicio li {
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+    margin: 15px;
+    font-size: 30px;
+    color: black !important;
+    background-color: rgb(55, 98, 107);
+}
+
+
+p{
+    font-size: 28px;
+    font: bolder;
+    color: black;
+}
+
+.estructura{
+    background: #00467F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5CC82, #00467F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5CC82, #00467F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* column-count: 2; */
+    display: flex;
+}
+
+
+.columna_izq {
+    width: 75%;
+    margin-right: 30px;
+}
+.columna_der {
+    width: 25%;
+}
+
+
+.pie_pagina{
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.formularios{
+    background-color: rgb(255, 120, 0);
+    padding: 25px;
+    margin: auto;
+    border: solid;
+    border-color: black;
+}
+
+.tilte-form{
+    color: black;
+    background-color:rgb(255, 120, 0);
+    padding: 15px;
+}
+
+

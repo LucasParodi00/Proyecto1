@@ -1,0 +1,79 @@
+
+.containerProductos{
+    font-family: 'Quicksand', sans-serif;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #000000;
+
+}
+
+.contenedorImput{
+    display: flex;
+    color: #ffffff;
+    margin: 15px;
+
+}
+
+.contenedorImput select{
+    width: 82%;
+    height: 50px;
+    border-radius: 10px;
+}
+.select{
+    width: 82%;
+}
+.contenedorImput label{
+    
+    font-size: 25px;
+    margin: 0 auto 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.contenedorImput input{
+    border-radius: 10px;
+}
+.tituloIngresoProducto h1{
+    color: red;
+    margin: 0 auto;
+    display: flex;
+}
+
+.tituloIngresoProducto{
+    margin: 0 auto;
+    display: flex;
+}
+
+.spanProductos{
+    height: 3px;
+    width: 100%;
+    background-color: red;
+    display: block;
+    margin: 20px auto;
+}
+
+.botonCargarProducto{
+    background-color: #000000;
+    color: #ffffff;
+    width: 110px;
+    height: 50px;
+    border: solid 1px ;
+    border-radius: 10px;    
+}
+
+.botonImputProducto{
+    justify-content: right;
+    display: flex;
+}
+
+.volverInicio svg{
+    color: #ff0000;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.volverInicio{
+    display: contents;
+    
+}
