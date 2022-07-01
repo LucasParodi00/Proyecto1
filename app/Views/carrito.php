@@ -1,7 +1,7 @@
 <body>
     
 
-    <div class="contenedorCarrito2">
+    <!-- <div class="contenedorCarrito2">
         <div class="containerCarrito">
             <div class="consultasdepersonas"><br>
                 <h2 class=" verlasconsultas text-center ">CARRITO DE COMPRAS</h2>
@@ -65,6 +65,56 @@
             <h4 class="text-center"><a href=" <?php echo base_url('comprar')?>" class="btn btn-success">Confirmar compra</a> </h4>
                 </div>
         </div>
+    </div> -->
+
+    <div class="contenedorCarritoP">
+        <div class="contenedorCarrito">
+            <div class="tituloCarrito">
+                <div class="botonesCarritoSup">
+                    <a class="btn btn-danger btn1 col-ml-2" href="<?php echo base_url('vaciarCarrito')?>"></i>Vaciar carrito</a>
+                    <a class="btn btn-success btn1 col-ml-2" href="<?php echo base_url('misventas')?>"></i>Mis Compras</a>
+                </div>
+                <h1>CARRITO DE COMPRAS</h1>
+            </div>
+            
+            <?php $i = 1;?>
+            <?php foreach($cart->contents() as $carrito): ?>
+                
+                <div class="unProductoCarrito">
+
+                    <!-- <div class="idCompra">
+                        <p> <?php echo $i++; ?> </p>
+                    </div> -->
+                    
+
+                    <div class="nombreProductoPrecio">
+                        <p> <?php echo $carrito['name']?> </p>
+                        <i> $ <?php echo $carrito['price']?></i>
+                    </div>
+                    
+                    <div class="cantidadProductos">
+                        <a href="<?php echo base_url("restar_carrito?id=").$carrito["rowid"] ?>">-</a>
+                        <p><?php echo $carrito['qty']?></p>
+                        <a href="<?php echo base_url("sumar_carrito?id=").$carrito["rowid"] ?>">+</a>
+                    </div>
+                    <div class="cantidadProductos">
+                        <p> $ <?php echo $carrito['subtotal'] ?> </p>
+                    </div>
+
+                    <div class="cancelarPedido">
+                        <a href="<?php  echo base_url('eliminarCarrito?rowid='.$carrito['rowid']); ?>"><img src="assets/img/iconos/cancel.png" alt=""></a>
+                    </div>
+
+                </div>
+
+            <?php endforeach ?>
+                
+            <div class="totalCompra">
+                <h4>TOTAL: $ <?php echo $total ?></h4>
+                <a href="<?php echo base_url('wasap')?>" class="btn btn-success"> CONTINUAR</a>
+            </div>
+        </div>
     </div>
 
+   
 </body>

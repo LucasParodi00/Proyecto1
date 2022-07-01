@@ -7,9 +7,7 @@ use CodeIgniter\Controller;
 use App\Models\Productos_model;
 use App\Models\Usuarios_model;
 use App\Models\Ventas_Model;
-
-
-
+use CodeIgniterCart\Cart;
 
 class Carrito_Controller extends BaseController{
 
@@ -32,12 +30,13 @@ class Carrito_Controller extends BaseController{
     public function verCarrito(){
         $cart = \Config\Services::cart();
         $cart = array('cart' => $cart);
+
+       
         $data['titulo'] = 'Carrito';
         echo view('head',$data);
         echo view('navegador');
         echo view('carrito',$cart);
         echo view('footer');
-        
     }
 
     public function eliminarCarrito(){
@@ -105,6 +104,8 @@ class Carrito_Controller extends BaseController{
             $precio = $precio . "$ ".$ventas['price']. "</br>";
         } 
 
+        
+
         $datos = [
             //'descripcion_venta' => $descripcion,
             'descripcion_venta' => $productos,
@@ -117,6 +118,7 @@ class Carrito_Controller extends BaseController{
         ];
         
         $ventasModel -> insert($datos);
+        //return redirect()->route('vaciarCarrito');
         return redirect()->route('vaciarCarrito');
     }
 
@@ -154,7 +156,23 @@ class Carrito_Controller extends BaseController{
         return view('back/carrito/misventas',$ventas). view('footer');
     }
 
-   
+    public function formWasap(){
+        $cart = \Config\Services::cart(); 
+    
+        $descripcion = '';
+        foreach ($cart->contents() as $ventas){
+            $descripcion= $descripcion .$ventas ['name'] . "(x" .$ventas ['qty'] .")%0A";
+        } 
+
+        $data['wasap']= $descripcion;
+        $monto ['monto']= $cart->total();
+        $data['titulo']='Vegetarian :: Confirmar Pedido';
+        echo view('head',$data);
+        echo view('navegador');
+        
+        
+        return view('back/carrito/formWasap', $monto). view('footer');
+    }
 
 }
 ?>

@@ -60,8 +60,7 @@ $routes ->group("/", ['filter' => 'admi'], function($routes){
     $routes->get("/editar/(:num)", "Usuario_controller::editar/$1");
     $routes->get("/usuariosEliminados", "Usuario_controller::panelEliminados");
     $routes->post('/actualizar', 'Usuario_controller::actualizar');
-
-
+    
     $routes->get('/registro2', 'Usuario_controller::newUsuario'); 
     $routes->post('/registro2', 'Usuario_controller::create2');
     //-----------------------------------------------
@@ -113,6 +112,11 @@ $routes->post('cargarConsulta', 'Consulta_Controller::cargarConsulta');
 $routes->get('detallesVentas', 'Carrito_Controller::verVentas');
 
 $routes->get('misventas', 'Carrito_Controller::misVentas');
+
+
+/*EXTRAS */
+$routes->get('wasap', 'Carrito_Controller::formWasap');
+
 
 /*
  * --------------------------------------------------------------------

@@ -1803,7 +1803,119 @@ h4{
     margin: 20px;
     padding: 20px;
     box-shadow: 0 0 3px 2px ;
+}  
+
+/*Carrito de compras*/
+.contenedorCarrito{
+    max-width: 1400px;
+    margin: 0 auto;
 }
+.contenedorCarritoP{
+    max-width: 1910px;
+    min-height: 800px;
+    margin: 0 auto;
+    background-color: #222222;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    padding: 30px;
+}
+
+.unProductoCarrito{
+    display: flex;
+    background-color: #404140;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.cantidadProductos{
+    display: flex;
+    width: 150px;
+    align-items: center;
+    margin-right: 5%;
+
+}
+
+
+.cantidadProductos a{
+    background-color: rgb(200, 233, 206);
+    height: 30px;
+    width: 20px;
+    display: flex;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    font-weight: bolder;
+   
+
+}
+
+.cantidadProductos p{
+  font-size: 30px;
+  display: flex;
+  margin: 0 10px;
+    
+}
+.nombreProductoPrecio{
+    width: 40%;
+    margin-left: 5%;
+    
+}
+.nombreProductoPrecio p{
+    font-size: 22px;
+    height: 10px;
+}
+
+.nombreProductoPrecio i{
+   color: #ffffff;
+   margin-left: 20px; 
+}
+
+.cancelarPedido{
+    margin-right: 30px;
+    align-items: center;
+    display: flex;
+}
+.cancelarPedido img {
+    width: 35px;
+}
+
+.totalCompra{
+    background-color: #908b8b;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.totalCompra h4{
+    color: #000000;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.tituloCarrito  {
+   display: flex;
+   align-items: center;
+}
+
+.tituloCarrito h1{
+    margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*mediaq*/
@@ -1898,3 +2010,4 @@ h4{
     
    }
 }
+

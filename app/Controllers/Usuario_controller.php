@@ -60,7 +60,7 @@ class Usuario_controller extends baseController{
                     'localidad' => $this->request->getPost('localidad'),
                     'rango' => $this->request->getPost('rango'),
         ];
-        
+         
         $id = $this->request->getVar('id');
         
 

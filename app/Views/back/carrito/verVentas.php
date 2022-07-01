@@ -4,7 +4,7 @@
 
 <div class="contenedorVenta">
 
-<?php foreach ($ventas as $v): ?>
+    <?php foreach ($ventas as $v): ?>
             <div class="unaVenta">
                 <div class="cabezeraMisProductos">
                     <div class="tituloVenta">
@@ -44,12 +44,6 @@
 
         <?php  endforeach ?>
     
-</div>
-
-
-
-
-
-
+</div> 
 
 

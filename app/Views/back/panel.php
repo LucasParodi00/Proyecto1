@@ -27,7 +27,7 @@
                     <th>#</th>
                     <th>CUIT</th>
                     <th>Nombre y Apellido</th>
-                    <th>Usuario</th>
+                    <th>Usuario</th> 
                     <th>Correo Electronico</th>
                     <th>Telefono</th>
                     <th>Localidad</th>
